@@ -1,0 +1,6 @@
+/** Default script */
+<b:include data='blog' name='all-head-content'/>
+   { Include atom and rss feed link in source code }
+
+/** Without duplication */
+<link expr:href='data:blog.url' rel='canonical'/>
