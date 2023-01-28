@@ -1,11 +1,11 @@
 <script type='text/javascript'>
 //Disable cut copy paste
-document.oncopy = function(){alert(&quot;Can&#39;t copy, it violates 𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁&quot;); return false;}
+document.oncopy = function(){alert(&quot;Copy option disabled&quot;); return false;}
 document.oncut = function(){alert(&quot;Cut option disabled&quot;);return false;}
 document.onpaste = function(){alert(&quot;Paste option disabled&quot;);return false;}
 //Disable mouse right click
 document.onmousedown = disableclick;
-msg = &quot;Right Click not permitted\n\n𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 𝟮𝟬𝟮𝟯 𝗕𝗟𝗢𝗚 𝗥𝗜𝗙𝗞𝗜&quot;;
+msg = &quot;Right Click not permitted&quot;;
 function disableclick(e)
 {
      if(event.button==2)
