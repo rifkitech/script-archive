@@ -1,1 +1,1 @@
-Situs Blog saya ==> https://www.rifkiez.eu.org/
+Situs Blog saya ==> https://www.rifkiblog.eu.org/
